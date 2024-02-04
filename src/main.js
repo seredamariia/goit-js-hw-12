@@ -29,7 +29,7 @@ async function onSearch(event) {
   page = 1;
   loadMore.classList.add('is-hidden');
 
-  const query = event.currentTarget.elements.query.value.trim();
+  query = event.currentTarget.elements.query.value.trim();
   if (!query) {
     handleNoImages();
     return;
