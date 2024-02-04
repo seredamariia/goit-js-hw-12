@@ -9,16 +9,19 @@
 </head>
 
 <body>
-  <form class="form-inline search-form">
+  <form class="search-form">
     <div class="form-group">
       <input type="text" class="form-control" name="query" placeholder="Search images..." />
     </div>
 
-    <button type="submit" class="btn btn-primary">Search</button>
+    <button type="submit" class="btn">Search</button>
   </form>
 
-  <span class="loader"></span>
   <ul class="gallery"></ul>
+
+  <button class="load-btn btn is-hidden" type="button">Load more</button>
+
+  <span class="loader"></span>
 
   <script type="module" src="./main.js"></script>
 </body>
